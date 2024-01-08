@@ -583,21 +583,25 @@ input {
 }
 
 .number {
+    position: relative;
     display: inline-flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 .gmail {
+    position: relative;
     display: inline-flex;
-    gap: 20px;
+    gap: 50px;
 }
 
 .number img {
-    cursor: pointer;
+    position: absolute;
+    top: 10px;
 }
 
 .gmail img {
-    cursor: pointer;
+    position: absolute;
+    top: 10px;
 }
 
 .number p {
