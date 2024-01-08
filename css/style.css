@@ -349,6 +349,10 @@ img {
     margin: 0 auto;
 }
 
+.holiday-text-p .holi-p{
+    display: block;
+}
+
 .holiday-text h5 {
     color: #070211;
     font-family: var(---ff2);
@@ -358,14 +362,14 @@ img {
 
 .holiday-text h1 {
     margin-top: 15px;
+    margin-bottom: 15px;
     color: #F00;
     font-family: var(---ff1);
     font-size: 72px;
     font-weight: 900;
 }
 
-.holiday-text p {
-    margin-top: 15px;
+.holiday-text-p .holi-p  {
     color: rgba(7, 2, 17, 0.60);
     font-family: var(---ff2);
     font-size: 20px;
